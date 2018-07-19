@@ -78,6 +78,7 @@ void ofxGLFog::setFogEnd(float& fogEnd ){
 bool ofxGLFog::enableCoordinate(bool & enable){
 	bEnableFogCoordinate = enable;
 	setFog();
+	return true;
 }
 
 void ofxGLFog::enable(){
