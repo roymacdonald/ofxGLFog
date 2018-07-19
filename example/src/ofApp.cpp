@@ -3,8 +3,8 @@
 void ofApp::setup(){
 	cam.enableMouseInput();
 	bEnableFog =true;
-	ofMatrix4x4 m(0.721631, 0.00136599, 0.692276, 0,0.158998, 0.972939, -0.16766, 0, -0.673771,  0.23106, 0.701886,0, -235.597,   179.47,  270.957, 1);// ignore this.it is just for placing the camera
-	cam.setTransformMatrix(m);
+	//ofMatrix4x4 m(0.721631, 0.00136599, 0.692276, 0,0.158998, 0.972939, -0.16766, 0, -0.673771,  0.23106, 0.701886,0, -235.597,   179.47,  270.957, 1);// ignore this.it is just for placing the camera
+	//cam.setTransformMatrix(m);
 }
 
 //--------------------------------------------------------------
